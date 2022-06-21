@@ -8,12 +8,25 @@
 <link rel="stylesheet" media="all" href="css/style.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 <script src="js/script.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+<script type="text/javascript">
+        $(document).ready(function(){
+            $('.slider').bxSlider({
+                auto: true,
+                pause: 5000,
+            });
+        });
+</script>
+
 </head>
 
 <body id="top">
 <header id="header">
 	<div id="headerWrap">
-		<h1><img src="images/logo.png" width="142" height="80" alt="logo"></h1>
+		<h1><img src="images/logo.png" width="250" height="170" alt="logo"></h1>
 		<nav id="mainnav">
 			<p id="menuWrap"><a id="menu"><span id="menuBtn"></span></a></p>
 			<div class="panel">
@@ -30,8 +43,14 @@
 	</div>
 </header>
 
-<div id="mainImg">
-	<img src="images/mainImg.jpg" alt="">
+<!--<div id="mainImg">-->
+<!--	<img src="images/mainImg.jpg" alt="">-->
+<!--</div>-->
+<div class="slider">
+<img src="images/gazou1.jpg" width="200" height="100" alt="">
+<img src="images/gazou2.jpg" width="200" height="100" alt="">
+<img src="images/gazou3.jpg" width="200" height="100" alt="">
+<img src="images/gazou4.jpg" width="200" height="100" alt="">
 </div>
 
 <!-- MESSAGE -->
@@ -128,7 +147,8 @@
 			<li>
 				<div id="map">
 					<!-- GOOGLE MAP -->
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198.5937927089367!2d136.92980931491988!3d36.70829797996758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff781ec5af4ca3f%3A0x2ade3e8e4c2801b8!2z56aP5bKh6aeF!5e0!3m2!1sja!2sus!4v1478313402186" allowfullscreen></iframe>
+					<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfC8YDnEPd5IuG8xemgYeFwaINsy0qEeBV5bUGKLcpT56AZkw/viewform?embedded=true" width="640" height="1082" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+					<!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198.5937927089367!2d136.92980931491988!3d36.70829797996758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff781ec5af4ca3f%3A0x2ade3e8e4c2801b8!2z56aP5bKh6aeF!5e0!3m2!1sja!2sus!4v1478313402186" allowfullscreen></iframe>-->
 					<!-- // GOOGLE MAP -->
 				</div>
 			</li>
